@@ -12,3 +12,18 @@ Dataset contains 7 columns and 5000 rows with CSV extension. The data contains t
 - 'Area Population': Population of city.
 - 'Price': Price that the house sold at.
 - 'Address': Address of the houses.
+
+# Linear Regression Model
+Linear Regression is a statistical method that models the relationship between the independent variables and the dependent variable. In this case, the independent variables are the features mentioned above, and the dependent variable is the house price.
+
+The Linear Regression Model will be trained on the provided dataset to learn the relationships between the features and the house prices. Once trained, the model can be used to predict the selling price of houses for new data.
+
+# Files
+TASK_01.ipynb: Jupyter Notebook containing the code for data exploration, model training, and evaluation.
+sample_train.csv: CSV file containing the dataset.
+readme.md: Readme file with information about the problem statement, dataset, and model.
+
+# Instructions
+Open the Jupyter Notebook TASK_01.ipynb.
+Run the cells in order to load and explore the dataset, train the Linear Regression Model, and evaluate its performance.
+Use the trained model to predict house prices for new data.
